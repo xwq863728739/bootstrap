@@ -1,0 +1,37 @@
+.banner{width: 100%;height:460px;float:left;clear:both;}
+.banner .container{height:100%;position: relative;height: 460px;}
+.banner .side-left{width:234px;z-index: 1;position: absolute;top:0;padding:20px 0;
+    background-color:rgba(0,0,0,0.6); }
+.banner .side-left li a{display: block;height:42px;width:204px;margin-left:30px;color:#fff;
+font-size:14px;text-align: left;line-height: 42px;position: relative;}
+.banner .side-left li a span{position: absolute;right:20px;top:12px;line-height: 18px;}
+.banner .side-left li:hover{background-color: #ff6700;}
+.banner .container .num .active{background: #fff;}
+
+.banner .container .img-list{width:100%;height:460px;overflow: hidden;position: relative;}
+.banner .container .img-list img{width:100%;height:460px;}
+.banner .container .img-list .pic{position: absolute;z-index: 1;display:none;}
+.banner .container .num{position: absolute;bottom:20px;right:100px;z-index: 2;}
+.banner .container .num li a{display: block;border:3px solid #ccc;background: #424242;
+border-radius: 100%;width: 14px;height: 14px;margin-right:10px;}
+.banner .side-left .mitu:hover li{background: #fff;}
+.banner .side-left .mitu:hover .content-wrap{display: block;}
+.banner .side-left .erji .item{width: 300px;float: left;}
+.banner .side-left .erji:hover li{background: #fff;}
+.banner .side-left .erji:hover .content-wrap{display: block;}
+.banner .content-wrap{position: absolute;
+    box-shadow:0 8px 16px rgba(0,0,0,0.18);top:0;left:234px;z-index: 20;display: none;
+    padding:0;padding-right:20px;background-color: #fff;border: 1px solid #ccc;}
+.banner .side-left .erji .content-wrap{width: 650px;}
+.banner .side-left .erji .content-wrap .item li{padding: 10px 20px;}
+.banner .side-left .common .item{float: left;height: 458px;}
+.banner .side-left .common .item li{padding:18px 20px;}
+.banner .side-left .erji .content-wrap .item li{padding: 16px 20px;}
+.banner .side-left .common .item li a{padding: 0;margin:0;}
+.banner .side-left .common .item li img{float: left;width: 40px;height: 40px;}
+.banner .side-left .common .item li a span{float: left;position: static;height: 40px;
+line-height: 40px;margin-left: 20px;color: #000;padding:0 5px;}
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{
+	content:" ";display:table}
+.clearfix:after{clear:both}
